@@ -1,7 +1,7 @@
 """Simulate motor commands without connecting to physical hardware."""
 
 
-def move(speed):
+def move(5.0):
     print(f"  Motor: move forward at {speed:.1f} m/s")
 
 def stop():
